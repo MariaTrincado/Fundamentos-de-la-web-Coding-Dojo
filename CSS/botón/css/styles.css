@@ -1,0 +1,31 @@
+#boton1 { 
+    color: rgb(55, 180, 170); 
+    border-color: rgb(55, 180, 170);
+    border-radius: 20px; 
+    width: 160px;
+    height: 30px;
+    font-weight: bold;
+    font-size: medium;
+    display: block;
+    margin:10px;
+}
+
+#boton2 { 
+    background-color: rgb(55, 180, 170); 
+    color: white;
+    padding: 8px 15px; 
+    font-size: x-large;
+    border-radius: 50%; 
+    border: none;
+    display: block;
+    margin:5px;
+}
+
+#boton3 {
+    background-color: rgb(68, 107, 222);
+    color: white; 
+    padding: 7px 30px; 
+    box-shadow: 4px 4px black;
+    margin:10px;
+    font-size: large;
+}
