@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <div>
+            <label>
+                Nombre: *
+            </label>
+            <input type="text" name="nombreUsuario">
+        </div>
+        <div>
+            <label>
+                Apellido: *
+            </label>
+            <input type="text" name="apellidoUsuario">
+        </div>
+        <div>
+            <label>
+                Correo: *
+            </label>
+            <input type="email" name="mail">
+        </div>
+        <div>
+            <label>
+                Contraseña: *
+            </label>
+            <input type="password" name="passwordUsuario">
+        <div>
+            <div>
+                <label>
+                    Confirmar contraseña: *
+                </label>
+                <input type="password2" name="password2">
+            <div>
+            Fecha de nacimiento:
+            <input type="date">
+        </div>
+        </div>
+        <div>
+            <br>
+            Identidad de género:
+            </br>
+            <label>
+                Masculino
+            </label>
+            <input type="radio" name="genero">
+            <label>
+                Femenino
+            </label>
+            <input type="radio" name="genero">
+            <label>
+                No-binario
+            </label>
+            <input type="radio" name="genero">
+            <label>
+                Prefiero no decir
+            </label>
+            <input type="radio" name="genero">
+        </div>
+        <div>
+            <label>
+                <br>
+                Una pequeña descripción de mí:
+            </br>
+            </label>
+            <textarea name="descripción"></textarea>
+        </div>
+        <div>
+            <label>
+                Lenguaje favorito
+            </label>
+            <select name="lenguaje">
+                <option> JavaScript </option>
+                <option> Java </option>
+                <option> Python</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="acuerdo">
+            <label>
+                Sí, estoy de acuerdo en recibir actualizaciones periódicas mediante correo
+                <!--No sé si podemos invertir el label y el input-->
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Crear Cuenta">
+        </div>
+        <p>*Indica campo obligatorio</p>
+</body>
+</html>
