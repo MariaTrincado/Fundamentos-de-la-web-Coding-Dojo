@@ -1,0 +1,44 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.filas{
+    padding: 15px;
+    width: 400px;
+    background-color: beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+.fila1{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:aquamarine;
+}
+
+.fila2{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:pink;
+}
+
+.fila3{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+
+
+
+
+
+
